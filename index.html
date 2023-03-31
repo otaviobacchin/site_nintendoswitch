@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Switch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img src="./imagens/switchlogo.png" alt="Logo Nintendo Switch">
+            <h1 class="m-0 section-title">Nintendo Switch</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-nintendo-switch me-1"></i>
+                            Sobre o Console
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#caracteristicas" class="nav-link">
+                            <i class="bi bi-list-check me-1"></i>
+                            Características
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#comprar" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Comprar
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-img active" data-bs-interval="3000">
+                        <img class="" src="./imagens/carousel.png" alt="Foto do espaço interno">
+                    </div>
+                    <div class="carousel-item carousel-img" data-bs-interval="3000">
+                        <img src="./imagens/carousel1.png" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item carousel-img" data-bs-interval="3000">
+                        <img src="./imagens/carousel2.png" alt="Mesa com comida">
+                    </div>
+                    <div class="carousel-item carousel-img" data-bs-interval="3000">
+                        <img src="./imagens/carousel3.png" alt="Mesa com comida">
+                    </div>
+                    <div class="carousel-item carousel-img" data-bs-interval="3000">
+                        <img src="./imagens/carousel4.png" alt="Mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row d-flex flex-wrap align-items-center">
+                        <div class="col-md-6">
+                            <img src="./imagens/switch1.png" class="w-100" alt="Nintendo Switch Cinza">
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <h2 class='section-title text-center'>Sobre a <span class="text-colored">marca</span></h2>
+                            <p>
+                                A Nintendo é uma marca consagrada por sua longa história na indústria de videogames e por sua capacidade de inovar e criar franquias icônicas, como Super Mario, The Legend of Zelda e Pokémon. Além disso, a empresa se destaca por sua abordagem única em relação ao design de hardware e jogabilidade, que cativou e conquistou uma base de fãs leais ao longo dos anos.
+                            </p>
+                            <h3 class="section-title text-center">Sobre o <span class="text-colored">console</span></h3>
+                            <p>
+                                O Nintendo Switch é um console híbrido de videogame lançado em 2017, que permite aos jogadores jogar tanto em casa na TV quanto em modo portátil.
+                            </p>
+                            <p>
+                                O console é elogiado por sua flexibilidade e jogabilidade única, além de oferecer uma biblioteca de jogos exclusivos da Nintendo, como:
+                            </p>
+                            <ul>
+                                <li>The Legend of Zelda: Breath of the Wild</li>
+                                <li>Super Mario Odyssey</li>
+                                <li>Animal Crossing: New Horizons</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="caracteristicas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1 text-colored-blue">Características</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/caracteristicas1.jpg" alt="" class="d-block w-100 rounded mb-2 border border-info border-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-pin-map-fill"></i>
+                            Portabilidade
+                        </h3>
+                        <p>
+                            O Switch pode ser facilmente transportado para jogar em qualquer lugar, graças ao seu design compacto e à possibilidade de jogar em modo portátil. Isso permite aos jogadores desfrutar de seus jogos favoritos da Nintendo em movimento, tornando o console uma opção atraente para jogadores que procuram uma experiência de jogo portátil de alta qualidade.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/caracteristicas2.jpg" alt="" class="d-block w-100 rounded mb-2 border border-info border-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-usb-symbol"></i>
+                            Flexibilidade
+                        </h3>
+                        <p>
+                            O Switch permite aos jogadores jogar tanto em casa na TV quanto em modo portátil, permitindo uma ampla gama de opções de jogo. Isso significa que os jogadores podem alternar entre jogar no conforto da sua casa ou em movimento, sem perder a continuidade do jogo.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/caracteristicas3.png" alt="" class="d-block w-100 rounded mb-2 border border-info border-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-joystick"></i>
+                            Jogos Exclusivos
+                        </h3>
+                        <p>
+                            O Switch tem uma biblioteca de jogos exclusivos incríveis da Nintendo, como The Legend of Zelda: Breath of the Wild, Super Mario Odyssey, Animal Crossing: New Horizons e muitos outros. Esses jogos são amplamente aclamados pela crítica e pelos jogadores, tornando o Switch uma excelente escolha para quem procura jogos exclusivos de alta qualidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">
+                        Jogos Exclusivos
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mario-bros" class="nav-link fw-bold text-start active">Mario Bros.</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pokemon" class="nav-link fw-bold text-start">Pokemon</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#zelda" class="nav-link fw-bold text-start">Zelda</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#kirby" class="nav-link fw-bold text-start">Kirby</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="nav-link fw-bold text-start">Outros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="mario-bros">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/mariodeluxe.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">New Super Mario Bros.™ U Deluxe</h5>
+                                        <p>
+                                            Junte-se ao Mario, Luigi e amigos nesta diversão para jogador único ou multijogador a qualquer hora, em qualquer lugar! Junte até três amigos, encare duas aventuras de deslocamento lateral para toda a família e salve o reino Cogumelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/marioparty.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Super Mario Party™</h5>
+                                        <p>
+                                            Vire o jogo sobre os adversários enquanto você corre pelo tabuleiro para coletar o máximo de estrelas no modo de jogo de tabuleiro da série original Mario Party para quatro jogadores - agora com o recém-adicionado modo de jogo online. Junte-se ao frenesi total com amigos e família!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/marioodissey.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Super Mario Odyssey™</h5>
+                                        <p>
+                                            Queime o asfalto nas pistas do Reino Cogumelo! Debaixo d'água, no céu, no espaço ou de cabeça para baixo a caminho da vitória! Acelere no modo multijogador local, em torneios online, no modo de batalha renovado e muito mais!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/mariokart.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Mario Kart™ 8 Deluxe</h5>
+                                        <p>
+                                            Junte-se ao Mario, Luigi e amigos nesta diversão para jogador único ou multijogador a qualquer hora, em qualquer lugar! Junte até três amigos, encare duas aventuras de deslocamento lateral para toda a família e salve o reino Cogumelo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/mario3dworld.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Super Mario™ 3D World + Bowser’s Fury</h5>
+                                        <p>
+                                            Salte e escale por dezenas de fases coloridas! Trabalhem juntos para explorar e descobrir itens colecionáveis ou competir pela coroa ganhando a maior pontuação, criando um frenesi amistoso!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pokemon">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonviolet.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Violet</h5>
+                                        <p>
+                                            Capture, lute e treine Pokémon na região de Paldea, uma vasta área cheia de lagos, picos imponentes, desertos, vilarejos e cidades em expansão. Explore o mundo aberto no seu próprio ritmo e atravesse terra, água e ar montado no Pokémon lendário que muda de forma.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonscarlet.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Scarlet</h5>
+                                        <p>
+                                            Capture, lute e treine Pokémon na região de Paldea, uma vasta área cheia de lagos, picos imponentes, desertos, vilarejos e cidades em expansão. Explore o mundo aberto no seu próprio ritmo e atravesse terra, água e ar montado no Pokémon lendário que muda de forma.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonarceus.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Legends: Arceus</h5>
+                                        <p>
+                                            Prepare-se para uma nova grande aventura Pokémon em Pokémon™ Legends: Arceus, um jogo totalmente novo da Game Freak que combina ação e exploração com as raízes de RPG da série Pokémon. Embarque em missões de pesquisa na antiga região de Hisui.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonpearl.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Shining Pearl</h5>
+                                        <p>
+                                            Bem-vindo à região de Sinnoh! Rica em natureza e com o poderoso Mount Coronet em seu núcleo, Sinnoh é uma terra de muitos mitos passados de geração em geração.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemondiamond.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Brilliant Diamond</h5>
+                                        <p>
+                                            Bem-vindo à região de Sinnoh! Rica em natureza e com o poderoso Mount Coronet em seu núcleo, Sinnoh é uma terra de muitos mitos passados de geração em geração.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonsword.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Sword</h5>
+                                        <p>
+                                            Uma nova geração Pokémon está chegando para o console Nintendo Switch™. Comece a sua aventura como Treinador Pokémon escolhendo um desses três novos parceiros Pokémon: Grookey, Scorbunny ou Sobble.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pokemonshield.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pokémon™ Shield</h5>
+                                        <p>
+                                            Uma nova geração Pokémon está chegando para o console Nintendo Switch™. Comece a sua aventura como Treinador Pokémon escolhendo um desses três novos parceiros Pokémon: Grookey, Scorbunny ou Sobble.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="zelda">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/zeldatears.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">The Legend of Zelda™: Tears of the Kingdom</h5>
+                                        <p>
+                                            Uma aventura épica pela terra e pelos céus de Hyrule aguarda em The Legend of Zelda™: Tears of the Kingdom para o console Nintendo Switch™. A aventura será criada por você, em um mundo alimentado pela sua imaginação.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/zeldaskyward.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">The Legend of Zelda™: Skyward Sword HD</h5>
+                                        <p>
+                                            Desça ao perigoso mundo da superfície nessa missão de alto voo pelos céus. Sua aventura o levará por masmorras perigosas repletas de quebra-cabeças. Descubra uma área escondida com o Beetle voador ou encontre uma maneira inteligente de atrapalhar os inimigos com um chicote.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/zeldabreath.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">The Legend of Zelda™: Breath of the Wild</h5>
+                                        <p>
+                                            Esqueça tudo que você sabe sobre os jogos da série The Legend of Zelda. Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild, o novo jogo da famosa série que veio para romper barreiras.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/zeldalink.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">The Legend of Zelda™: Link’s Awakening</h5>
+                                        <p>
+                                            Link acorda em uma estranha terra longe de Hyrule, onde animais falam e monstros vagueiam. Para revelar a verdade por trás de seu paradeiro e despertar o legendário Wind Fish, explore Koholint Island e suas masmorras repletas de armadilhas, tudo isso reinventado com detalhes fascinantes para o novo lançamento de um dos mais amados jogos de The Legend of Zelda.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kirby">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/kirbyreturn.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Kirby’s Return to Dream Land™ Deluxe</h5>
+                                        <p>
+                                            A poderosa bolinha rosa, Kirby, está de volta para uma aventura de plataforma de 1 a 4 jogadores no planeta Pop. Ajude Magolor a reconstruir sua nave com as recém-adicionadas habilidades maqui e areia!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/kirbyforgoten.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Kirby™ and the Forgotten Land</h5>
+                                        <p>
+                                            Embarque em uma aventura totalmente nova como a poderosa bolinha, Kirby. Explore livremente em fases 3D enquanto descobre um mundo misterioso com estruturas abandonadas de uma civilização passada - como um shopping center?!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/kirbystar.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Kirby™ Star Allies</h5>
+                                        <p>
+                                            Quando um novo mal ameaça o planeta Popstar, Kirby precisa da ajuda de seus... Inimigos?! Ao fazer amizade com seus inimigos, até três* jogadores podem entrar ou sair desta aventura a qualquer momento.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/kirbyclash.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Super Kirby Clash™</h5>
+                                        <p>
+                                            Para derrotar chefões malvados assim, será necessário um time inteiro de Kirbys! Neste jogo de ação gratuito para começar a jogar, que também conta com um modo multijogador, você poderá escolher entre quatro Kirbys com habilidades únicas e se juntar a outros três jogadores para derrotar chefões poderosos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outros">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/supersmash.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Super Smash Bros.™ Ultimate</h5>
+                                        <p>
+                                            Personagens icônicos se enfrentam na luta definitiva, que você poderá jogar a qualquer hora, em qualquer lugar!</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/metroiddread.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Metroid™ Dread</h5>
+                                        <p>
+                                            Ao investigar uma transmissão misteriosa no planeta ZDR, Samus enfrenta um inimigo misterioso que a aprisiona neste mundo perigoso. O planeta remoto foi invadido por cruéis formas de vida alienígenas e robôs assassinos chamados E.M.M.I.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/luigismansion.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Luigi’s Mansion™ 3</h5>
+                                        <p>
+                                            Luigi foi convidado a se hospedar no suntuoso hotel Last Resort. Mas com o sumiço de Mario e seus amigos, nosso herói vestido de verde terá de superar seus medos para poder salvá-los!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/splatoon3.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Splatoon™ 3</h5>
+                                        <p>
+                                            Entre em batalhas de 4 contra 4* neste jogo de tiro de ação colorido repleto de estilo e atitude. Como um Inkling parecido com uma lula, cubra rapidamente seus arredores (e oponentes) com tinta usando armas selvagens e nade em meio a sua própria cor para se camuflar e lambuzar.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/pikmin4.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Pikmin™ 4</h5>
+                                        <p>
+                                            Conheça os Pikmin, pequenas criaturas semelhantes a plantas que você pode cultivar, colher, comandar e usar para dominar seus inimigos!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/xenoblade2.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Xenoblade Chronicles™ 2</h5>
+                                        <p>
+                                            Perdidas em um mar de nuvens, civilizações inteiras vivem nas costas de Titans. Enquanto estes monstros gigantescos caminham para a morte, a última esperança é um caçador de tesouros chamado Rex e Pyra, uma arma viva conhecida como uma Blade.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 border border-dark border-2 rounded" src="./imagens/jogos/animalcrossing.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2 border border-dark border-2 rounded">Animal Crossing™: New Horizons</h5>
+                                        <p>
+                                            Escape para uma ilha deserta e crie o seu próprio paraíso enquanto explora, cria e customiza em Animal Crossing: New Horizons. A sua ilha traz uma variedade incrível de recursos naturais que podem ser usados para criar de tudo, desde objetos para o seu conforto a ferramentas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="comprar" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 mt-3">Compre agora o seu Nintento Switch!</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-5 mx-auto">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 mt-5">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="lite" id="lite">
+                                    <label for="lite" class="form-check-label">Nintendo Switch Lite - R$1.500,00</label>
+                                </div>
+                                <div class="form-check mt-2 mb-2">
+                                    <input class="form-check-input" type="checkbox" name="switch" id="switch">
+                                    <label for="switch" class="form-check-label">Nintendo Switch - R$2.590,00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="oled" id="oled">
+                                    <label for="oled" class="form-check-label">Nintendo Switch Oled - R$3.200,00</label>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button type="submit" class="btn btn-lg fw-bold mt-5">Comprar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
